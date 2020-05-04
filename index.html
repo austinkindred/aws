@@ -6,11 +6,18 @@
   <style>
     body {background-color: black;}
     a {color: yellow;}
+    .rotateimg90{
+      -webkit-transform:rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
   </style>
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
   <a href="https://avocadotoast.s3-us-west-2.amazonaws.com/IMG_6376.JPG">S3 Bucket</a>
   <br>
-  <img src="https://avocadotoast.s3-us-west-2.amazonaws.com/IMG_6376.JPG" alt="Image" style="width:500px;height:600px;">
+  <img src="https://avocadotoast.s3-us-west-2.amazonaws.com/IMG_6376.JPG" alt="Image" style="width:500px;height:600px;" class="rotateimg90">
 </body>
 </html>
